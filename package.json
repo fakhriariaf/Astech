@@ -1,0 +1,23 @@
+{
+  "name": "estech-assesment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "testUi": "npx playwright test --ui",
+    "codegen": "npx playwright codegen",
+    "clean-test": "rm -rf playwright-report test-results && npx playwright test"
+  },
+  "keywords": [],
+  "author": "Fakhri Aria F",
+  "license": "ISC",
+  "description": "Assessment QA Estech",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.52.0"
+  }
+}
